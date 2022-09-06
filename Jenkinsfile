@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                echo "Job runnning successfully"
                 sh 'node --version'
             }
         }
